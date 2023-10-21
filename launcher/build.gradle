@@ -8,7 +8,7 @@ dependencies {
 
 android {
     compileSdkVersion 33
-    buildToolsVersion '30.0.2'
+    buildToolsVersion '30.0.3'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -34,9 +34,9 @@ android {
     signingConfigs {
         release {
             storeFile file('D:/AppCentral/ice-cream-roll/icecreamRollKeystore.keystore')
-            storePassword ''
+            storePassword '123456'
             keyAlias 'icecream roll'
-            keyPassword ''
+            keyPassword '123456'
         }
     }
 

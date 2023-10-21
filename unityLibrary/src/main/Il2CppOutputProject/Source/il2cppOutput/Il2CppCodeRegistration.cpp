@@ -24,7 +24,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Cinemachine_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTweenPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTween_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_IngameDebugConsole_Runtime_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MaxSdk_Scripts_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MoreMountains_NiceVibrations_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MoreMountains_NiceVibrations_Demos_CodeGenModule;
@@ -72,7 +71,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Timeline_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[53] = 
+const Il2CppCodeGenModule* g_CodeGenModules[52] = 
 {
 	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
@@ -80,7 +79,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[53] =
 	(&g_DOTweenPro_CodeGenModule),
 	(&g_DOTween_CodeGenModule),
 	(&g_IngameDebugConsole_Runtime_CodeGenModule),
-	(&g_MaxSdk_Scripts_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_MoreMountains_NiceVibrations_CodeGenModule),
 	(&g_MoreMountains_NiceVibrations_Demos_CodeGenModule),
@@ -133,18 +131,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	1,
 	g_ReversePInvokeWrapperPointers,
-	16800,
+	16791,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	4321,
+	4318,
 	g_Il2CppInvokerPointers,
 	696,
 	g_UnresolvedVirtualMethodPointers,
-	266,
+	264,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	53,
+	52,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
